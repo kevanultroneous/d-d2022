@@ -55,7 +55,7 @@ class product extends Component {
         headers: headers,
       })
       .then((res) => {
-        //    console.log("asdbhjsad")
+        console.log(res.data)
         let status = res.data.status;
         if (status == "success") {
           window.location.href = "/admin/product";
