@@ -24,7 +24,7 @@ function delete_product(id) {
       }
     })
     .catch(function (error) {
-      alert("Please enetr valid details");
+      alert("Please enter valid details");
     });
 }
 

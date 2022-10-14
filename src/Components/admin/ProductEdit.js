@@ -30,7 +30,7 @@ class product extends Component {
         });
       })
       .catch(function (error) {
-        alert("Please enetr valid details");
+        alert("Please enter valid details");
       });
   }
 
@@ -87,7 +87,7 @@ class product extends Component {
         }
       })
       .catch(function (error) {
-        alert("Please enetr valid details");
+        alert("Please enter valid details");
       });
   };
 
